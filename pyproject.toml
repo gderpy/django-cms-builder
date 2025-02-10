@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-cms-builder"
+version = "0.1.0"
+description = ""
+authors = ["Yury Petrov <gderpov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.6"
+djangorestframework = "^3.15.2"
+markdown = "^3.7"
+django-filter = "^24.3"
+psycopg2 = "^2.9.10"
+djangorestframework-simplejwt = "^5.4.0"
+celery = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

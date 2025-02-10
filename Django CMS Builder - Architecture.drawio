@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="alP7QsbJ_apXtd6_RnJu">
+    <mxGraphModel dx="1406" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-1" value="Пользователь" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-2" target="_eCrZMc_1PrG5cDi-8ql-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-2" value="Сайт&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Название&lt;/div&gt;&lt;div&gt;2. Домен&lt;/div&gt;&lt;div&gt;3. Пользователь (FK)&lt;/div&gt;&lt;div&gt;4. Дата создания&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-1" target="_eCrZMc_1PrG5cDi-8ql-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-4" value="Страницы сайта&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Сайт (FK)&lt;/div&gt;&lt;div&gt;2. Название страницы&lt;/div&gt;&lt;div&gt;3. Слаг&lt;/div&gt;&lt;div&gt;4. Дата создания&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="190" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-6" value="Секции на странице (шапка, футтер...)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Сайт (FK)&lt;/div&gt;&lt;div&gt;2. Порядок (PositiveInteger)&lt;/div&gt;&lt;div&gt;3. Тип секции&amp;nbsp;&lt;/div&gt;&lt;div&gt;4. Контент (JSONField)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;5. Дата создания&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-2" target="_eCrZMc_1PrG5cDi-8ql-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-8" value="Медиа файлы&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Сайт (FK)&lt;/div&gt;&lt;div&gt;2. Файл&lt;/div&gt;&lt;div&gt;3. Дата загрузки&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="585" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-10" target="_eCrZMc_1PrG5cDi-8ql-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-10" value="Товары&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Сайт (FK)&lt;/div&gt;&lt;div&gt;2. Название&lt;/div&gt;&lt;div&gt;3. Категория&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. Описание&lt;/div&gt;&lt;div&gt;5. Цена&lt;/div&gt;&lt;div&gt;6. Изображение&lt;/div&gt;&lt;div&gt;7. Дата создания&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="780" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_eCrZMc_1PrG5cDi-8ql-11" target="_eCrZMc_1PrG5cDi-8ql-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_eCrZMc_1PrG5cDi-8ql-11" value="Заказы&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;1. Сайт (FK)&lt;/div&gt;&lt;div&gt;2. Пользователь (FK)&lt;/div&gt;&lt;div&gt;3. Общая стоимость&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. Статус&lt;/div&gt;&lt;div&gt;5. Дата создания&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="780" width="210" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
